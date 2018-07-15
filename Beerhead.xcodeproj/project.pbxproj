@@ -142,34 +142,18 @@
 			isa = PBXGroup;
 			children = (
 				1479DE4120FB9B1C00F1AF53 /* SettingsTableViewController.swift */,
-				1479DE4220FB9B1C00F1AF53 /* Beerhead */,
-			);
-			path = "Settings & Profile";
-			sourceTree = "<group>";
-		};
-		1479DE4220FB9B1C00F1AF53 /* Beerhead */ = {
-			isa = PBXGroup;
-			children = (
 				1479DE4320FB9B1C00F1AF53 /* Settings.storyboard */,
 			);
-			path = Beerhead;
+			path = "Settings & Profile";
 			sourceTree = "<group>";
 		};
 		1479DE4520FB9B1C00F1AF53 /* Beers */ = {
 			isa = PBXGroup;
 			children = (
 				1479DE4620FB9B1C00F1AF53 /* BeersTableViewController.swift */,
-				1479DE4720FB9B1C00F1AF53 /* Beerhead */,
-			);
-			path = Beers;
-			sourceTree = "<group>";
-		};
-		1479DE4720FB9B1C00F1AF53 /* Beerhead */ = {
-			isa = PBXGroup;
-			children = (
 				1479DE4820FB9B1C00F1AF53 /* Beers.storyboard */,
 			);
-			path = Beerhead;
+			path = Beers;
 			sourceTree = "<group>";
 		};
 		7CEE3493F21B5A1CD147C543 /* Pods */ = {
@@ -530,6 +514,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DSRD6624UQ;
 				INFOPLIST_FILE = Beerhead/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -537,7 +522,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = in.Beerhead;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -549,6 +534,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DSRD6624UQ;
 				INFOPLIST_FILE = Beerhead/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -556,7 +542,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = in.Beerhead;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

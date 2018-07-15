@@ -60,4 +60,5 @@
         <image name="ico_tab_vote_filled" width="25" height="25"/>
         <image name="ico_tab_vote_unfilled" width="25" height="25"/>
     </resources>
+    <color key="tintColor" red="0.77353037219999998" green="0.21723225800000001" blue="0.13003793499999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>

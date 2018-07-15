@@ -17,6 +17,7 @@
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.77353037220572451" green="0.21723225796097564" blue="0.13003793498169869" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
                         <segue destination="3fF-OW-8DR" kind="relationship" relationship="viewControllers" id="L5U-rD-VXS"/>
@@ -59,4 +60,5 @@
             <point key="canvasLocation" x="-135" y="1081"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.77353037219999998" green="0.21723225800000001" blue="0.13003793499999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
