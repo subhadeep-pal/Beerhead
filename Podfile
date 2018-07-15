@@ -7,6 +7,8 @@ target 'Beerhead' do
 
   # Pods for Beerhead
 
+  pod 'Hex'
+
   target 'BeerheadTests' do
     inherit! :search_paths
     # Pods for testing
