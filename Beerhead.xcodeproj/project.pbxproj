@@ -12,6 +12,12 @@
 		1479DE1420FB262900F1AF53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1479DE1320FB262900F1AF53 /* Assets.xcassets */; };
 		1479DE1720FB262900F1AF53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1479DE1520FB262900F1AF53 /* LaunchScreen.storyboard */; };
 		1479DE2220FB262900F1AF53 /* BeerheadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479DE2120FB262900F1AF53 /* BeerheadTests.swift */; };
+		1479DE2E20FB912200F1AF53 /* Beers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1479DE2C20FB912200F1AF53 /* Beers.storyboard */; };
+		1479DE3020FB913400F1AF53 /* Votes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1479DE2F20FB913400F1AF53 /* Votes.storyboard */; };
+		1479DE3320FB914F00F1AF53 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1479DE3120FB914F00F1AF53 /* Settings.storyboard */; };
+		1479DE3820FB918C00F1AF53 /* BeersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479DE3720FB918C00F1AF53 /* BeersTableViewController.swift */; };
+		1479DE3A20FB919600F1AF53 /* VotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479DE3920FB919600F1AF53 /* VotesTableViewController.swift */; };
+		1479DE3C20FB91F900F1AF53 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479DE3B20FB91F900F1AF53 /* SettingsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,12 @@
 		1479DE1D20FB262900F1AF53 /* BeerheadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerheadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1479DE2120FB262900F1AF53 /* BeerheadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerheadTests.swift; sourceTree = "<group>"; };
 		1479DE2320FB262900F1AF53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1479DE2D20FB912200F1AF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Beerhead/Base.lproj/Beers.storyboard; sourceTree = "<group>"; };
+		1479DE2F20FB913400F1AF53 /* Votes.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Votes.storyboard; sourceTree = "<group>"; };
+		1479DE3220FB914F00F1AF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Beerhead/Base.lproj/Settings.storyboard; sourceTree = "<group>"; };
+		1479DE3720FB918C00F1AF53 /* BeersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersTableViewController.swift; sourceTree = "<group>"; };
+		1479DE3920FB919600F1AF53 /* VotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotesTableViewController.swift; sourceTree = "<group>"; };
+		1479DE3B20FB91F900F1AF53 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,9 @@
 		1479DE0920FB262700F1AF53 /* Beerhead */ = {
 			isa = PBXGroup;
 			children = (
+				1479DE3420FB915600F1AF53 /* Settings & Profile */,
+				1479DE3520FB916300F1AF53 /* Votes */,
+				1479DE3620FB916B00F1AF53 /* Beers */,
 				1479DE0A20FB262700F1AF53 /* AppDelegate.swift */,
 				1479DE1020FB262700F1AF53 /* Main.storyboard */,
 				1479DE1320FB262900F1AF53 /* Assets.xcassets */,
@@ -91,6 +106,33 @@
 				1479DE2320FB262900F1AF53 /* Info.plist */,
 			);
 			path = BeerheadTests;
+			sourceTree = "<group>";
+		};
+		1479DE3420FB915600F1AF53 /* Settings & Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1479DE3120FB914F00F1AF53 /* Settings.storyboard */,
+				1479DE3B20FB91F900F1AF53 /* SettingsTableViewController.swift */,
+			);
+			path = "Settings & Profile";
+			sourceTree = "<group>";
+		};
+		1479DE3520FB916300F1AF53 /* Votes */ = {
+			isa = PBXGroup;
+			children = (
+				1479DE2F20FB913400F1AF53 /* Votes.storyboard */,
+				1479DE3920FB919600F1AF53 /* VotesTableViewController.swift */,
+			);
+			path = Votes;
+			sourceTree = "<group>";
+		};
+		1479DE3620FB916B00F1AF53 /* Beers */ = {
+			isa = PBXGroup;
+			children = (
+				1479DE2C20FB912200F1AF53 /* Beers.storyboard */,
+				1479DE3720FB918C00F1AF53 /* BeersTableViewController.swift */,
+			);
+			path = Beers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +216,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1479DE2E20FB912200F1AF53 /* Beers.storyboard in Resources */,
+				1479DE3020FB913400F1AF53 /* Votes.storyboard in Resources */,
 				1479DE1720FB262900F1AF53 /* LaunchScreen.storyboard in Resources */,
+				1479DE3320FB914F00F1AF53 /* Settings.storyboard in Resources */,
 				1479DE1420FB262900F1AF53 /* Assets.xcassets in Resources */,
 				1479DE1220FB262700F1AF53 /* Main.storyboard in Resources */,
 			);
@@ -194,7 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1479DE3C20FB91F900F1AF53 /* SettingsTableViewController.swift in Sources */,
 				1479DE0B20FB262700F1AF53 /* AppDelegate.swift in Sources */,
+				1479DE3820FB918C00F1AF53 /* BeersTableViewController.swift in Sources */,
+				1479DE3A20FB919600F1AF53 /* VotesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +279,22 @@
 				1479DE1620FB262900F1AF53 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1479DE2C20FB912200F1AF53 /* Beers.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1479DE2D20FB912200F1AF53 /* Base */,
+			);
+			name = Beers.storyboard;
+			sourceTree = "<group>";
+		};
+		1479DE3120FB914F00F1AF53 /* Settings.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1479DE3220FB914F00F1AF53 /* Base */,
+			);
+			name = Settings.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
