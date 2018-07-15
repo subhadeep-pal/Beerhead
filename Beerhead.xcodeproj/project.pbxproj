@@ -12,12 +12,14 @@
 		1479DE1420FB262900F1AF53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1479DE1320FB262900F1AF53 /* Assets.xcassets */; };
 		1479DE1720FB262900F1AF53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1479DE1520FB262900F1AF53 /* LaunchScreen.storyboard */; };
 		1479DE2220FB262900F1AF53 /* BeerheadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479DE2120FB262900F1AF53 /* BeerheadTests.swift */; };
-		1479DE2E20FB912200F1AF53 /* Beers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1479DE2C20FB912200F1AF53 /* Beers.storyboard */; };
-		1479DE3020FB913400F1AF53 /* Votes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1479DE2F20FB913400F1AF53 /* Votes.storyboard */; };
-		1479DE3320FB914F00F1AF53 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1479DE3120FB914F00F1AF53 /* Settings.storyboard */; };
-		1479DE3820FB918C00F1AF53 /* BeersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479DE3720FB918C00F1AF53 /* BeersTableViewController.swift */; };
-		1479DE3A20FB919600F1AF53 /* VotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479DE3920FB919600F1AF53 /* VotesTableViewController.swift */; };
-		1479DE3C20FB91F900F1AF53 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479DE3B20FB91F900F1AF53 /* SettingsTableViewController.swift */; };
+		1479DE4A20FB9B1D00F1AF53 /* Votes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1479DE3E20FB9B1C00F1AF53 /* Votes.storyboard */; };
+		1479DE4B20FB9B1D00F1AF53 /* VotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479DE3F20FB9B1C00F1AF53 /* VotesTableViewController.swift */; };
+		1479DE4C20FB9B1D00F1AF53 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479DE4120FB9B1C00F1AF53 /* SettingsTableViewController.swift */; };
+		1479DE4D20FB9B1D00F1AF53 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1479DE4320FB9B1C00F1AF53 /* Settings.storyboard */; };
+		1479DE4E20FB9B1D00F1AF53 /* BeersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1479DE4620FB9B1C00F1AF53 /* BeersTableViewController.swift */; };
+		1479DE4F20FB9B1D00F1AF53 /* Beers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1479DE4820FB9B1C00F1AF53 /* Beers.storyboard */; };
+		8053EEECDD3AFB6EBF7201E4 /* Pods_Beerhead.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BA4269367F060DFBEDEAC8 /* Pods_Beerhead.framework */; };
+		F09C8CA059AA5FDE524F74B5 /* Pods_BeerheadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B718E7A5D1C5F9FEF0D4B015 /* Pods_BeerheadTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +42,18 @@
 		1479DE1D20FB262900F1AF53 /* BeerheadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerheadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1479DE2120FB262900F1AF53 /* BeerheadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerheadTests.swift; sourceTree = "<group>"; };
 		1479DE2320FB262900F1AF53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1479DE2D20FB912200F1AF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Beerhead/Base.lproj/Beers.storyboard; sourceTree = "<group>"; };
-		1479DE2F20FB913400F1AF53 /* Votes.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Votes.storyboard; sourceTree = "<group>"; };
-		1479DE3220FB914F00F1AF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Beerhead/Base.lproj/Settings.storyboard; sourceTree = "<group>"; };
-		1479DE3720FB918C00F1AF53 /* BeersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersTableViewController.swift; sourceTree = "<group>"; };
-		1479DE3920FB919600F1AF53 /* VotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotesTableViewController.swift; sourceTree = "<group>"; };
-		1479DE3B20FB91F900F1AF53 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		1479DE3E20FB9B1C00F1AF53 /* Votes.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Votes.storyboard; sourceTree = "<group>"; };
+		1479DE3F20FB9B1C00F1AF53 /* VotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VotesTableViewController.swift; sourceTree = "<group>"; };
+		1479DE4120FB9B1C00F1AF53 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		1479DE4420FB9B1C00F1AF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Settings.storyboard; sourceTree = "<group>"; };
+		1479DE4620FB9B1C00F1AF53 /* BeersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeersTableViewController.swift; sourceTree = "<group>"; };
+		1479DE4920FB9B1C00F1AF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Beers.storyboard; sourceTree = "<group>"; };
+		25D7BE5CEB911A0ED9829239 /* Pods-BeerheadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerheadTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeerheadTests/Pods-BeerheadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65BA4269367F060DFBEDEAC8 /* Pods_Beerhead.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Beerhead.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B718E7A5D1C5F9FEF0D4B015 /* Pods_BeerheadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeerheadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5A9AB56680B5FF64B53105 /* Pods-Beerhead.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beerhead.release.xcconfig"; path = "Pods/Target Support Files/Pods-Beerhead/Pods-Beerhead.release.xcconfig"; sourceTree = "<group>"; };
+		E1CB66ECDD1593C683E3B8B7 /* Pods-BeerheadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeerheadTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeerheadTests/Pods-BeerheadTests.release.xcconfig"; sourceTree = "<group>"; };
+		E37C9E535AAAF9F30F65155B /* Pods-Beerhead.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beerhead.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Beerhead/Pods-Beerhead.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,9 @@
 		1479DE0920FB262700F1AF53 /* Beerhead */ = {
 			isa = PBXGroup;
 			children = (
-				1479DE3420FB915600F1AF53 /* Settings & Profile */,
-				1479DE3520FB916300F1AF53 /* Votes */,
-				1479DE3620FB916B00F1AF53 /* Beers */,
+				1479DE4520FB9B1C00F1AF53 /* Beers */,
+				1479DE4020FB9B1C00F1AF53 /* Settings & Profile */,
+				1479DE3D20FB9B1C00F1AF53 /* Votes */,
 				1479DE0A20FB262700F1AF53 /* AppDelegate.swift */,
 				1479DE1020FB262700F1AF53 /* Main.storyboard */,
 				1479DE1320FB262900F1AF53 /* Assets.xcassets */,
@@ -121,31 +129,58 @@
 			path = BeerheadTests;
 			sourceTree = "<group>";
 		};
-		1479DE3420FB915600F1AF53 /* Settings & Profile */ = {
+		1479DE3D20FB9B1C00F1AF53 /* Votes */ = {
 			isa = PBXGroup;
 			children = (
-				1479DE3120FB914F00F1AF53 /* Settings.storyboard */,
-				1479DE3B20FB91F900F1AF53 /* SettingsTableViewController.swift */,
-			);
-			path = "Settings & Profile";
-			sourceTree = "<group>";
-		};
-		1479DE3520FB916300F1AF53 /* Votes */ = {
-			isa = PBXGroup;
-			children = (
-				1479DE2F20FB913400F1AF53 /* Votes.storyboard */,
-				1479DE3920FB919600F1AF53 /* VotesTableViewController.swift */,
+				1479DE3E20FB9B1C00F1AF53 /* Votes.storyboard */,
+				1479DE3F20FB9B1C00F1AF53 /* VotesTableViewController.swift */,
 			);
 			path = Votes;
 			sourceTree = "<group>";
 		};
-		1479DE3620FB916B00F1AF53 /* Beers */ = {
+		1479DE4020FB9B1C00F1AF53 /* Settings & Profile */ = {
 			isa = PBXGroup;
 			children = (
-				1479DE2C20FB912200F1AF53 /* Beers.storyboard */,
-				1479DE3720FB918C00F1AF53 /* BeersTableViewController.swift */,
+				1479DE4120FB9B1C00F1AF53 /* SettingsTableViewController.swift */,
+				1479DE4220FB9B1C00F1AF53 /* Beerhead */,
+			);
+			path = "Settings & Profile";
+			sourceTree = "<group>";
+		};
+		1479DE4220FB9B1C00F1AF53 /* Beerhead */ = {
+			isa = PBXGroup;
+			children = (
+				1479DE4320FB9B1C00F1AF53 /* Settings.storyboard */,
+			);
+			path = Beerhead;
+			sourceTree = "<group>";
+		};
+		1479DE4520FB9B1C00F1AF53 /* Beers */ = {
+			isa = PBXGroup;
+			children = (
+				1479DE4620FB9B1C00F1AF53 /* BeersTableViewController.swift */,
+				1479DE4720FB9B1C00F1AF53 /* Beerhead */,
 			);
 			path = Beers;
+			sourceTree = "<group>";
+		};
+		1479DE4720FB9B1C00F1AF53 /* Beerhead */ = {
+			isa = PBXGroup;
+			children = (
+				1479DE4820FB9B1C00F1AF53 /* Beers.storyboard */,
+			);
+			path = Beerhead;
+			sourceTree = "<group>";
+		};
+		7CEE3493F21B5A1CD147C543 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E37C9E535AAAF9F30F65155B /* Pods-Beerhead.debug.xcconfig */,
+				CD5A9AB56680B5FF64B53105 /* Pods-Beerhead.release.xcconfig */,
+				25D7BE5CEB911A0ED9829239 /* Pods-BeerheadTests.debug.xcconfig */,
+				E1CB66ECDD1593C683E3B8B7 /* Pods-BeerheadTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,12 +267,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1479DE2E20FB912200F1AF53 /* Beers.storyboard in Resources */,
-				1479DE3020FB913400F1AF53 /* Votes.storyboard in Resources */,
+				1479DE4A20FB9B1D00F1AF53 /* Votes.storyboard in Resources */,
 				1479DE1720FB262900F1AF53 /* LaunchScreen.storyboard in Resources */,
-				1479DE3320FB914F00F1AF53 /* Settings.storyboard in Resources */,
 				1479DE1420FB262900F1AF53 /* Assets.xcassets in Resources */,
 				1479DE1220FB262700F1AF53 /* Main.storyboard in Resources */,
+				1479DE4F20FB9B1D00F1AF53 /* Beers.storyboard in Resources */,
+				1479DE4D20FB9B1D00F1AF53 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,10 +347,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1479DE3C20FB91F900F1AF53 /* SettingsTableViewController.swift in Sources */,
 				1479DE0B20FB262700F1AF53 /* AppDelegate.swift in Sources */,
-				1479DE3820FB918C00F1AF53 /* BeersTableViewController.swift in Sources */,
-				1479DE3A20FB919600F1AF53 /* VotesTableViewController.swift in Sources */,
+				1479DE4E20FB9B1D00F1AF53 /* BeersTableViewController.swift in Sources */,
+				1479DE4B20FB9B1D00F1AF53 /* VotesTableViewController.swift in Sources */,
+				1479DE4C20FB9B1D00F1AF53 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,20 +389,20 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		1479DE2C20FB912200F1AF53 /* Beers.storyboard */ = {
+		1479DE4320FB9B1C00F1AF53 /* Settings.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1479DE2D20FB912200F1AF53 /* Base */,
-			);
-			name = Beers.storyboard;
-			sourceTree = "<group>";
-		};
-		1479DE3120FB914F00F1AF53 /* Settings.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1479DE3220FB914F00F1AF53 /* Base */,
+				1479DE4420FB9B1C00F1AF53 /* Base */,
 			);
 			name = Settings.storyboard;
+			sourceTree = "<group>";
+		};
+		1479DE4820FB9B1C00F1AF53 /* Beers.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1479DE4920FB9B1C00F1AF53 /* Base */,
+			);
+			name = Beers.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
